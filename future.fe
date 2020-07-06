@@ -1,0 +1,6 @@
+module standard
+
+public type Future<T> {
+	pending
+	ready(T)
+}

@@ -1,0 +1,5 @@
+module http
+
+public type Body = Byte[]
+public type Header = Map<String, String[]>
+public type Version = (UInt, UInt)

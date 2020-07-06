@@ -1,0 +1,3 @@
+module standard
+
+public protocol Error {}

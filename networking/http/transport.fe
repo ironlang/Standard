@@ -1,0 +1,6 @@
+module http
+
+# Facilitates the execution of an HTTP request.
+public protocol Transport {
+	send(_ request: &Request): Result<&Response, HTTPError>
+}

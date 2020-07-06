@@ -1,0 +1,18 @@
+module url
+
+public type URL {
+	scheme     String
+	opaque     String
+	user       @UserInformation
+	host       String
+	path       String
+	rawPath    String
+	forceQuery Boolean
+	rawQuery   String
+	fragment   String
+}
+
+public type UserInformation {
+	username String
+	password Option<String>
+}
